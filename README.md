@@ -19,6 +19,7 @@ Le système utilise ** un moteur d'inférence basé sur des règles** et affiche
 
 Cloner le projet :
 
+```bash:
 
 git clone https://github.com/AminaADJAOUD/travel-expert-system.git
 cd travel-expert-system
