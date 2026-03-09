@@ -1,25 +1,59 @@
-# travel-expert-system
+# Travel Expert System
 
-Système expert de recommandation de destinations de voyage basé sur des règles.
+Ce projet est un petit **système expert en Python** qui aide à choisir une destination de voyage.
 
-L'application propose les **meilleures destinations** en fonction des préférences de l'utilisateur :
+L’idée est simple : le programme pose quelques questions à l’utilisateur (budget, climat, activités, etc.) puis propose **les destinations les plus adaptées** en fonction des réponses.
 
-- budget
-- climat
-- saison
-- ambiance
-- activités
-- distance
-
-Le système utilise ** un moteur d'inférence basé sur des règles** et affiche les **3 meilleures destinations avec des explications et des images**.
+Chaque destination est recommandée grâce à des **règles** qui représentent des connaissances simples sur les préférences de voyage.
 
 ---
 
-#Installation :
+## Comment ça marche ?
 
-Cloner le projet :
+Le programme demande à l’utilisateur plusieurs informations :
 
-```bash:
+- le budget
+- le climat souhaité
+- la saison du voyage
+- l’ambiance recherchée
+- l’activité principale
+- la distance souhaitée
 
+À partir de ces réponses, le système compare les préférences avec une **base de règles**.
+
+Chaque destination reçoit un score et le programme affiche **les 3 meilleures destinations** avec une explication.
+
+---
+
+## Comment utiliser le programme
+
+1. Télécharger le projet :
+
+```
 git clone https://github.com/AminaADJAOUD/travel-expert-system.git
 cd travel-expert-system
+```
+
+2. Lancer le programme :
+
+```
+python expert_voyage.py
+```
+
+3. Répondre aux questions dans le terminal.
+
+Le programme affichera ensuite les **destinations recommandées**.
+
+---
+
+## Technologies utilisées
+
+- Python
+- Programmation orientée objet
+- Système expert basé sur des règles
+
+---
+
+## Auteur
+
+Projet réalisé par **Amina ADJAOUD**.
